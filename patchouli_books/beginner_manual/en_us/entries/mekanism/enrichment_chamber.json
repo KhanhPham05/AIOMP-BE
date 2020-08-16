@@ -1,0 +1,16 @@
+{
+    "name":"7. Enrichment Chamber",
+    "icon":"mekanism:machineblock",
+    "category":"e_mekanism",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Do you want ot duplicate your ore more easier than the crusher? Enrichment Chamber will do that. It'll supports 3 types of upgrades: Speed, Energy, and Muffling"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:enrichment_chamber",
+            "text":"This powerfull machine not turn ores into dust, it can turn the Redstone Ore into 12 Redstone Dusts, 1 Nether Quartz Ore=> 6 Nether Quartzs, and many thing.."
+        }
+    ]
+}

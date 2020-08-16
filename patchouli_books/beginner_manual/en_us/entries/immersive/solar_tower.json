@@ -1,0 +1,68 @@
+{
+    "name":"W. Solar Tower & Reflector",
+    "icon":"immersivetech:metal_multiblock:1",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"During the steam progress, Did you ever thought that will there is a better, more efficient, easier way to make steam? There is am other way to produce steam way more faster and more efficiency. The Solar Tower"
+        },
+        {
+            "type":"text",
+            "text":"Required Materials:           x14 Steel Scaffolding         x04 Fluid Pipes              x1 Redstone Engineering Block  x5 Heavy Engineering Block    x20 Steel Fences              x16 Steel Sheetmetal"
+        },
+        {
+            "type":"multiblock",
+            "name":"Solar Tower",
+            "multiblock":{
+                "pattern":[
+                    ["SSS ","SSS ","SSS "],
+                    ["FAF ","AHA ","FAF "],
+                    ["FAF ","AHA ","FAF "],
+                    ["F F "," H  ","F F "],
+                    ["FAF ","AHA ","FAF "],
+                    ["FAF ","AHR ","FAF "],
+                    ["SPS ","PPS0","SPS "]
+                ],
+                "mapping":{
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "P":"immersiveengineering:metal_device1[type=fluid_pipe]",
+                    "A":"immersiveengineering:sheetmetal[type=steel]",
+                    "F":"immersiveengineering:metal_decoration1[type=steel_fence]",
+                    "H":"immersiveengineering:metal_decoration0[type=heavy_engineering]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]"
+                }
+            },
+            "text":"To form it right click in the Redstone Engineering Block with the Engineer's Hammer"
+        },
+        {
+            "type":"text",
+            "text":"You can input fluid from two side right and left but it accept ONLY ONE specifically fluid type and extract the Steam from behind but it need one more thing to operate it - The Solar Reflector. but accualty there is 4"
+        },
+        {
+            "type":"text",
+            "text":"The Solar Reflector will reflect the light from the sun and converging at the same point that is the Solar Tower. To collect the sun light you have to build the reflector at least 5 blocks away from the Tower.These materials are required to make 4 Solar Reflector:                    x8 Light Engineering Blocks  x16 Steel Scaffolding         x4 Block of Silver           x24 Treated Wood Fence"
+        },
+/*{thêm hình "cách 5 ô"}*/
+        {
+            "type":"multiblock",
+            "name":"Solar Reflector",
+            "multiblock":{
+                "pattern":[
+                    ["S ","L ","S "],
+                    ["F ","A ","F "],
+                    ["S ","L ","S "],
+                    ["F ","  ","F "],
+                    ["F ","0 ","F "]
+                ],
+                "mapping":{
+                    "F":"immersiveengineering:wooden_decoration[type=fence]",
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "L":"immersiveengineering:metal_decoration0[type=light_engineering]",
+                    "A":"immersiveengineering:storage[type=silver]"
+                }
+            },
+            "text":"To form, right click on the Silver Block with the Engineer's Hammer"
+        }
+    ]
+}

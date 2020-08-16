@@ -1,0 +1,53 @@
+{
+    "name":"U. Distillation Tower",
+    "icon":"immersivepetroleum:metal_multiblock:0",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"After collecting Crude Oil from the PumpJack we need to distillate them into 3 types of fluid : Gasoline, Diesel, Lubricant. These materials are required:                    x25 Steel Scaffolding         x33 Steel Scaffolding Slabs    x17 Fluid Pipes               x1 Redstone Engineering Blocks x4 Heavy Engineering Block  x60 Iron Sheetmetals "
+        },
+        {
+            "type":"multiblock",
+            "name":"Distillation Tower",
+            "multiblock":{
+                "pattern":[
+                    ["     "," II  "," II  ","  P  "],
+                    ["     "," II  "," II  ","  P  "],
+                    ["     "," II  "," II  ","  P  "],
+                    ["BSBB ","BIIB ","BIIB ","BBPB "],
+                    [" S   "," II  "," II  ","  P  "],
+                    [" S   "," II  "," II  ","  P  "],
+                    [" S   "," II  "," II  ","  P  "],
+                    ["BSBB ","BIIB ","BIIB ","BBPB "],
+                    [" S   "," II  "," II  ","  P  "],
+                    [" S   "," II  "," II  ","  P  "],
+                    [" S   "," II  "," II  ","  P  "],
+                    ["BSBB ","BIIB ","BIIB ","BBPB "],
+                    [" S   "," II  "," II  ","  P  "],
+                    [" S   "," II  ","PII  ","  P  "],
+                    [" S   "," II  ","HII  ","H PR "],
+                    ["SSSS ","SSSS0","HSSS ","HSPS "]
+                ],
+                "mapping":{
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "H":"immersiveengineering:metal_decoration0[type=heavy_engineering]",
+                    "P":"immersiveengineering:metal_device1[type=fluid_pipe,facing=up]",
+                    "I":"immersiveengineering:sheetmetal[type=iron]",
+                    "B":"immersiveengineering:metal_decoration1_slab[type=steel_scaffolding_0,slabtype=1]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]"
+                }
+               
+            },
+            "text":"To form, using Engineer's Hammer and right Click on the Redstone Engineering Block"
+        },
+        {
+            "type":"text",
+            "text":"   To make Diesel we have to input the Crude Oil from behind and it need enegry to run. After that, onpen the GUI you will se there will be 3 types of fluid appear in the right side of the GUI you have to take the Diesel and pump to the Boiler to make steam or Diesel Generator to produce power instead of the BioDiesel. The other fluid have to be stored some where else. It's the Tank. But for now when you have steam from Distilled Water from boiler, extract the Steam and you can store them in the"
+        },
+        {
+            "type":"text",
+            "text":"tank too. Now let's move on the next step! The Tank"
+        }
+    ]
+}

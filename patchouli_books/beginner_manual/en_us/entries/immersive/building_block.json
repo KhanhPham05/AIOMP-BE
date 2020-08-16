@@ -1,0 +1,25 @@
+{
+    "name":"D.Important Buiding Blocks",
+    "icon":"immersiveengineering:metal_decoration1:1",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"These are the recipes of the important block for building machines and stuff"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:redstone_engineering_block",
+            "recipe2":"crafttweaker:heavy_engineering_block"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:treated_planks",
+            "recipe2":"crafttweaker:fluid_pipe"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:treated_wood/treated_wood_slab0"
+        }
+    ]
+}

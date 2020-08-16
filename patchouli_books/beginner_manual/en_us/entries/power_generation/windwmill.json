@@ -1,0 +1,31 @@
+{
+    "name":"Wind Mill",
+    "icon":"immersiveengineering:wooden_device1:1",
+    "category":"d_power_generation",
+    "pages":[
+        {
+            "type":"text",
+            "text":"The windmill will ganerate a resonable amounts of power in the early game progress, you can use multiple windmill to produce more power. But first you need a Kinetic Dynamo"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:metal_devices/dynamo",
+            "text":"This block will take power from windmill and waterwheel from all side, except the face with a dark circle, that's face is where u attach the windmill on"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:material/windmill_blade",
+            "text":"Before you can craft the windmill, u need 8 Windmill Blades and a iron ingot"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:wooden_devices/windmill",
+            "text":"After u craft this make suere to put it on a high place (At least 4 block high) and have to attach with the Kinetic Dynamo."
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:windmill_sail",
+            "text":"Not Enough Power for the machine ? So let's upgrade you windmill with Windmill Sails. The sails can be attach on the windmill by holding the sail and right click on the wind mill. You can use 8 sails on a windmill"
+        }
+    ]
+}

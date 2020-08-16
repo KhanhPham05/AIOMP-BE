@@ -1,0 +1,39 @@
+{
+    "name":"I.Crusher",
+    "icon":"immersiveengineering:material:25",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"The first heavy machine you will make is the Crusher for x2 resouces and remember it will consume a large amount of energy, for more infomation check the Engineer's Manual!"
+        },
+        {
+            "type":"text",
+            "text":"Required Materials:             x10 Steel Scafolding           x1 Redstone Engineering Block  x10 Light Engineering Block    x8 Steel Fence                x9 Hopper"
+        },
+        {
+            "type":"multiblock",
+            "name":"Crusher",
+            "multiblock":{
+                "pattern":[
+                    ["    ", "HHH ", "HHH ", "HHH ", "    "],
+                    ["LLL ", "FFF ", "FLF ", "FFF ", " LR "],
+                    ["LLL ", "SSS ", "SLL0", "SSS ", "SSS "]
+                    
+                ],
+                "mapping":{
+                    "L": "immersiveengineering:metal_decoration0[type=light_engineering]",
+                    "S": "immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "F": "immersiveengineering:metal_decoration1[type=steel_fence]",
+                    "R": "immersiveengineering:metal_decoration0[type=rs_engineering]",
+                    "H": "minecraft:hopper"
+                },
+                "symmetrical":false
+            }
+        },
+        {
+            "type":"text",
+            "text":"To operate it, input the energy source on the small orange square, then a output is the black square you can put a chest next to it to store the results ortherwise your result will throw out as items. For the input you just need to hold any type of ore and throw it into the top of the crusher.              For more advanced informations chest the Engioneer's Manual"
+        }
+    ]
+}

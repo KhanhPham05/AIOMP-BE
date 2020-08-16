@@ -1,0 +1,44 @@
+{
+    "name":"Z. The Hottest Topic",
+    "icon":"immersiveengineering:metal_multiblock:13",
+    "category":"b_immersive",
+    "pages":  [
+        {
+            "type":"text",
+            "text":"The Final main multiblock you will build is the Hottest Topic -- ARC FURNACE and need tons of tons of power. It's will using as a normal furnace but it is the Mother Of Furnaces"
+        },
+        {
+            "type":"text",
+            "text":"These materials are required : x1 Cauldron                   x14 Steel Sheetmetal Slab      x8 Steel Sheetmetal           x6 Block of Steel             x5 Steel Scaffolding           x1 Redstone Engineering Block  x10 Light Engineering Block    x5 Heavy Engineering Block   x27 Reinforced Blast Brick."
+        },
+        {
+            "type":"multiblock",
+            "name":"Arc Furnace",
+            "multiblock":{
+                "pattern":[
+                    ["      ","S     ","LLL   ","S     ","      "],
+                    ["      ","SDDD  ","LDDD  ","SDDD  ","      "],
+                    ["M B   ","LDDDD ","LDDDD ","LDDDD ","M B   "],
+                    ["HHB R ","LDD   ","LDD   ","LDD   ","HHB   "],
+                    ["MMBAS ","MAAAA ","HAAAC0","MAAAA ","MMBAA "]
+                ],
+                "mapping":{
+                    "A":"immersiveengineering:sheetmetal_slab[slabtype=0,type=steel]",
+                    "B":"immersiveengineering:storage[type=steel]",
+                    "C":"minecraft:cauldron",
+                    "D":"immersiveengineering:stone_decoration[type=blastbrick_reinforced]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]",
+                    "H":"immersiveengineering:metal_decoration0[type=heavy_engineering]",
+                    "L":"immersiveengineering:metal_decoration0[type=light_engineering]",
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "M":"immersiveengineering:sheetmetal[type=steel]"
+                }
+            },
+            "text":"To form, right click on the Cauldron with Engineer's Hammer"
+        },
+        {
+            "type":"text",
+            "text":"The Arc Furnace need 2 thing to operate it: 1 is Energy -- The Arc Furnace need a lots of power to run, you can provide them energy from the back of the furnace. The 2nd is [3 HOP Graphire Rods] to craft it you need 4 HOP Graphire Ingots for 1 Rod in the Engineer's Workbench with the [Arc Furnace Electrodes] Bluepirint. You can make it using Metal Press with Rod Mold but the Rod will damaged 50% of durability. Then you put 3 rods in the top slot of the Arc Furnace GUI"
+        }
+    ]       
+}

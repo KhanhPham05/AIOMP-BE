@@ -1,0 +1,42 @@
+{
+    "name":"6. Machine Upgrades",
+    "icon":"mekanism:speedupgrade",
+    "category":"e_mekanism",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Do you think your machines are to slow ? So there is a solution to upgrades your machines. Go to your machine GUI and click on the Arror point up button at the top right corner or the GUI. But not all the machine are supported all the upgrades"
+        },
+       
+        {
+            "type":"spotlight",
+            "item":"mekanism:speedupgrade",
+            "text":"The maximum item per stack is 8 also the maximum upgrade of a machine can import. The more upgrade are input the faster the machine can working but will consume more power."
+        },
+        {
+            "type":"crafting",
+            "recipe":"mekanism:speedupgrade",
+            "recipe2":"mekanism:energyupgrade"
+        },
+        {
+            "type":"spotlight",
+            "item":"mekanism:energyupgrade",
+            "text":"If you have a lots of speed upgrades it will consume a lots of power too, so the Energy Upgrade will help you with that. It will increase the energy efficiency and capacitor of your machines"
+        },
+        {
+            "type":"spotlight",
+            "item":"mekanism:mufflingupgrade",
+            "text":"And having issue with your machine to working too loud? It will reduce noices generated from your machines"
+        },
+        {
+            "type":"spotlight",
+            "item":"mekanism:anchorupgrade",
+            "text":"This upgrade can be use for the Digital Miner. It's will keep the chunk where the machine have placed to load and the Miner will keep working while you gone away"
+        },
+        {
+            "type":"crafting",
+            "recipe":"mekanism:mufflingupgrade",
+            "recipe2":"mekanism:anchorupgrade"
+        }
+    ]
+}

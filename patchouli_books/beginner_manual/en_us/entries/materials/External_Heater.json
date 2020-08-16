@@ -1,0 +1,12 @@
+{
+    "name":"External Heater",
+    "icon":"immersiveengineering:metal_device1:1",
+    "category":"c_material",
+    "pages":[
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:metal_devices/furnace_heater",
+            "text":"You can give it some power to the orange dot face. Then put furnaces next to the External Heeater, It will boost the Furnace to smelting faster"
+        }
+    ]
+}

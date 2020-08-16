@@ -1,0 +1,15 @@
+{
+    "name":"ZA.Automatic Lubricator",
+    "icon":"immersivepetroleum:metal_device",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"From Lubricant in your Distillation Tower.Craft the Automatic Lubricator and you can attach it next to the Crusher and the Pumpjack as the Speed Upgrade for it. Connect the pipe from Distillation Tower on the Automatic Lubricator cause it need Lubricate to power it. Hold the Automatic Lubricator on your hand and it will highlight the place you have to put it on"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersivepetroleum:metal_decoration/auto_lubricator"
+        }
+    ]
+}

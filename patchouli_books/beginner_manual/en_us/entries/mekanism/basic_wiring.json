@@ -1,0 +1,45 @@
+{
+    "name":"4.Basic Wiring",
+    "icon":"mekanism:transmitter:4",
+    "category":"e_mekanism",
+    "pages":[
+        {
+            "type":"text",
+            "text":"If you want to make a automation system with Mekanism, you need to know these basic wiring tips.And it's time for the Configuator to action.There are many type of wires but there are 2 main types of wire you need to know: Logistical Transporter and Universal Cable"
+        },
+        {
+            "type":"spotlight",
+            "item":"mekanism:transmitter:3",
+            "text":"This is the most basic tier of the Logistical Transporter you can upgrade it into Advaned-Elite-Ultimate tier. To transfer items, it's need 2 end of the wire - Output and Input ends - To do that, attach to a chest and use the Configurator (Item Mode) , Shift and Right-Click on the end of the wire until the game said [Connection type changes to Pull] and the other end will be [Push]"
+        },
+        {
+            "type":"crafting",
+            "recipe":"mekanism:transmitter_3_alt",
+            "recipe2":"mekanism:transmitter_3_alt_alt"
+        },
+        {
+            "type":"crafting",
+            "recipe":"mekanism:transmitter_3_alt_alt_alt",
+            "text":"These recipes are for upgrading the wires"
+            
+        },
+        {
+            "type":"text",
+            "text":"You can do this as a input / outputs of the Mekanism machines by Shift+RightClick on a side of the machine using Configurator [Item mode] is Input or Output and connect them to the chests. In case the wire will gone wrong, you can use the Configurator and shift+rightClick on the middle of the wire to change the colors of the wires"
+        },
+        {
+            "type":"spotlight",
+            "item":"mekanism:transmitter:0",
+            "text":"This Universal Cable will help you to transfer energy from your Immerisve Engineering generators but it can only transfer energy from capacitors. Unlike the Logistical Transporter, this can be configurate into inputs and output ends but you don't need to do that. There are also better tiers for it!"
+        },
+        {
+            "type":"crafting",
+            "recipe":"mekanism:transmitter_0_alt",
+            "recipe2":"mekanism:transmitter_0_alt_alt"
+        },
+        {
+            "type":"crafting",
+            "recipe":"mekanism:transmitter_0_alt_alt_alt"
+        }
+    ]
+}

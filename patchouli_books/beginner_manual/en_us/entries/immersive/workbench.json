@@ -1,0 +1,26 @@
+{
+    "name":"F.Engineer's Workbench",
+    "icon":"immersiveengineering:wooden_device0:2",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Engineer's Woorkbench is a brandnew table for crafting for crafting components Arc Furnace Electrodes and many thing using Blueprints and the recipes for each type of blueprint"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:wooden_devices/workbench",
+            "text":"This workbench need some particular blueprint for each item. hover on each blueprint in JEI to see what item it can craft"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:blueprints/molds",
+            "recipe2":"immersiveengineering:blueprints/components"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:blueprints/common_cartridges",
+            "recipe2":"crafttweaker:blueprints_electrodes"
+        }
+    ]
+}

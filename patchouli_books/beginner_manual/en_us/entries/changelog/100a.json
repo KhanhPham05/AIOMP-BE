@@ -1,0 +1,11 @@
+{
+    "name":"1.0.0a",
+    "icon":"minecraft:knownledge_book",
+    "category":"patchouli:z_changelog",
+    "pages":[
+        {
+            "type":"text",
+            "text":"This is the first build of this modpack"
+        }
+    ]
+}

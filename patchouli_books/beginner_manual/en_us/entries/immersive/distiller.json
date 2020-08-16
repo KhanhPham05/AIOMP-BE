@@ -1,0 +1,34 @@
+{
+    "name":"R. Distiller",
+    "icon":"immersivetech:metal_multiblock:0",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Next multiblock machine we will make is.....  The Distiller to turn normal water into Distilled Water. 1st Step to make Steam. these materials are required to make:          x7 Steel Scaffolding         x3 Fluid Pipes                x1 Redstone Engineering Block  x2 Light Engineering Block   x10 Iron Sheetmetals"
+        },
+        {
+            "type":"multiblock",
+            "name":"Distiller",
+            "multiblock":{
+                "pattern":[
+                    ["SS  ","II  ","II  "],
+                    ["IIL ","II  ","IIR "],
+                    ["SPL ","SPS0","SPS "]
+                ],
+                "mapping":{
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "L":"immersiveengineering:metal_decoration0[type=light_engineering]",
+                    "P":"immersiveengineering:metal_device1[type=fluid_pipe]",
+                    "I":"immersiveengineering:sheetmetal[type=iron]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]"
+                }
+            },
+            "text":"To form the structure, right click with Engineer's Hammer on the iron sheetmetal at the middle "
+        },
+        {
+            "type":"text",
+            "text":"To make Distilled Water, input the water from the right side and it need power to operate. After that open the GUI and you got Distilled Water, there are 2 outputs for the machine from the left and the back. Let's move on the next step - Boiler!"
+        }
+    ]
+}

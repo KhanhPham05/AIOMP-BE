@@ -1,0 +1,29 @@
+{
+    "name":"V. Tank",
+    "icon":"immersiveengineering:metal_multiblock:2",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"To storage your residual fluid, you can put them in the Tank - It'll contain up to 512 buckets of any fluid which can be piped through the top or bottom block and you can extract the fluid from the Tank by put the lever in the bottom and turn it on, you can only extract them from the bottom center. To form right-click on the 3rd layer (center) Iron Sheetmetal"
+        },
+        {
+            "type":"multiblock",
+            "name":"Tank",
+            "multiblock":{
+                "pattern":[
+                    ["III ","III ","III "],
+                    ["III ","I I ","III "],
+                    ["III ","I I ","III "],
+                    ["III ","I I ","III "],
+                    ["F F "," I 0","F F "]
+                ],
+                "mapping":{
+                    "F":"immersiveengineering:wooden_decoration[type=fence]",
+                    "I":"immersiveengineering:sheetmetal[type=iron]"
+                }
+            },
+            "text":"Required Materials:           x4 Treated Wood Fence         x34 Iron Sheetmetal"
+        }
+    ]
+}

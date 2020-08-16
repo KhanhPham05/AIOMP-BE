@@ -1,0 +1,24 @@
+{
+    "name":"2.Configurator",
+    "icon":"mekanism:configurator",
+    "category":"e_mekanism",
+    "pages":[
+        {
+            "type":"text",
+           "text":"This next item is the key of Mekanism, missing this your jobs will be very complicated. To craft it you need 4 Enriched Alloy which made from redstone and iron with the rate 1:1 to make 1 Enriched Alloy, means 1 redstone dust +1 iron ingot= 1 Enriched Alloy. You need 2 Enriched Alloys to craft the Energy Tablet, then you craft the Configurator with 2 remains"
+        },
+        {
+            "type":"crafting",
+            "recipe":"mekanism:energytablet",
+            "recipe2":"mekanism:configurator"
+        },
+        {
+            "type":"text",
+            "text":"To use it make sure to fully charged it. You can craft a Charging Station from Immersive Engneering and give it energy from behind then hold the Configurator and right-click on the Charging Station. Then, you will se a red particles appear on the Charging Station, which means the thing it's charging now is low in power and wait until the particle slowly turn to green, that's means the Configurator is fully charged and ready to go, right-click the Chargng Station to take it out"
+        },
+        {
+            "type":"text",
+            "text":"But how to use it? Ther Configurator can changing the wires propeties, colors and changing the output/inputs/energy and many use full benefit of the Configurator. First, you can choose the Configurate mode by sneaking and rolling the middle mouse. Default is Items mode"
+        }
+    ]
+}

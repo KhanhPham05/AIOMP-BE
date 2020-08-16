@@ -1,0 +1,40 @@
+{
+    "name":"O. Diesel Generator",
+    "icon":"immersiveengineering:metal_multiblock:10",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"We now have BioDiesel, what's it use for?  Welp, time for another power generator - Diesel Generator. These materials are required:       x6 Steel Scaffolding          x5 Fluid Pipes         x1Redstone Engineering blocks  x13 Heavy Engineering Block   x4 Generator Block           x9 Radiator Blocks"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:metal_decoration/generator",
+            "recipe2":"immersiveengineering:metal_decoration/radiator"
+        },
+        {
+            "type":"multiblock",
+            "name":"Diesel Generator",
+            "multiblock":{
+                "pattern":[
+                    ["A H   ","AHHH  ","A H   "],
+                    ["AHHHG ","AHHHG ","AHRHG "],
+                    ["ASSSP ","APPPG0","ASSSP "]
+                ],
+                "mapping":{
+                    "G":"immersiveengineering:metal_decoration0[type=generator]",
+                    "A":"immersiveengineering:metal_decoration0[type=radiator]",
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "P":"immersiveengineering:metal_device1[type=fluid_pipe]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]",
+                    "H":"immersiveengineering:metal_decoration0[type=heavy_engineering]"
+                }
+            },
+            "text":"To form it, right click the centre Generator Block, that's is the front face of the machine"
+        },
+        {
+            "type":"text", 
+            "text":"There are two fluid input from 2 side right and left and there are 3 power inputs from the top at the front of the machine and a redstone panel to turn on/off it. This will help you to make a lots of power, up to 4096RF per 1 tick (20 ticks = 1 second ==> 1 tick = 0.05 second) Which means 81 920 RFs per second. That's a huge number"
+        }
+    ]    
+}

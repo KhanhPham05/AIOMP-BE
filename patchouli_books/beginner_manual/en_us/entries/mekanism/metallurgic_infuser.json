@@ -1,0 +1,16 @@
+{
+    "name":"1.Metallurgic Infuser",
+    "icon":"mekanism:machineblock:8",
+    "category":"e_mekanism",
+    "pages":[
+        {
+            "type":"text",
+            "text":"This simple machine will porducing Alloys and Circut Board from the Basic tier to Ultimate tier. This machine is the most important thing in Mekanism."
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:metallurgic_infuser",
+            "text":"You can input the power from Immersive Engineering into this machine from all the sides"
+        }
+    ]
+}

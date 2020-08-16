@@ -1,0 +1,31 @@
+{
+    "name":"P. Assembler",
+    "icon":"immersiveengineering:metal_multiblock:4",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Feel boring of crafting manually ? Time for some fun with your Brand new Assembler !!. Materials Required:         x6 Steel Scaffolding          x9 Iron Sheetmetals          x6 Iron Sheetmetal Slabs       x2 Redstone Engineering Block  x2 Light Engineering Block    x2 Conveyor Belts"
+        },
+        {
+            "type":"multiblock",
+            "name":"Assembler",
+            "multiblock":{
+                "pattern":[
+                    ["LLL ","III ","LLL "],
+                    ["III ","YAY ","III "],                  
+                    ["SRS ","SAS0","SRS "]
+                ],
+                "mapping":{
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "A":"immersiveengineering:metal_decoration0[type=light_engineering]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]",
+                    "I":"immersiveengineering:sheetmetal[type=iron]",
+                    "Y":"immersiveengineering:conveyor",
+                    "L":"immersiveengineering:sheetmetal_slab[type=iron][slabtype=0]"
+                },
+                "text":"To form, right click on one of two conveyor belts"
+            }
+        }
+    ]
+}

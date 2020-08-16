@@ -1,0 +1,16 @@
+{
+    "name":"3.Energized Smelter",
+    "icon":"mekanism:machineblock:10",
+    "category":"e_mekanism",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Next Step, don't want to build the Arc Furnace? It's ok but there is a machine from Mekanism can smelting item like a normal furnace but can not doing any alloy recipes. To craft it, you need a Steel Casing and 2 Advanced Control Circuts ( Basic Control Circut + 2 Enriched Alloy in Crafting Table ==> Advanced Control Circut)"
+        },
+        {
+            "type":"crafting",
+            "recipe":"mekanism:basicblock_8",
+            "recipe2":"crafttweaker:energized_smelter"
+        }
+    ]
+}

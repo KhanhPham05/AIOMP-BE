@@ -1,0 +1,17 @@
+{
+    "name":"A.Engineer's Hammer",
+    "icon":"immersiveengineering:tool:0",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"One of two important furnaces for next steps to the automation is Coke Furnace. First of all, we need a Engineer's Hammer "
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:tool/hammer",
+            "text":"This is the key of this Immersive Engineering mod, it use for form the multiblock structures and turn ingot into plates but Unfortunately I disabled all the recipes for these plates"
+        }
+        
+    ]
+}

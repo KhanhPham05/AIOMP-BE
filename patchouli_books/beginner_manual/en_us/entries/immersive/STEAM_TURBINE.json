@@ -1,0 +1,69 @@
+{
+    "name":"X. Steam Turbine",
+    "icon":"immersivetech:metal_multiblock:3",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"The Final Boss of Immersive Engineering is the ultimate power generator - Steam Turbine which will produce TONS OF ENGERGY for you. These materials are required for the Steam Turbine:        x3 Steel Scaffolding          x6 Fluid Pipe                 x1 Redstone Engineering Block  x24 Heavy Engineering Blocks  x4 Radiator Block          x27 Steel Sheetmetal         x10 Block of Steel"
+        },
+        {
+            "type":"multiblock",
+            "name":"Steam Turbine",
+            "multiblock":{
+                "pattern":[
+                    ["           ","  AAAAP    ","           "],
+                    [" HMMH HM   "," HMMH HM P "," HMMH HM P "],
+                    [" HMMH HMMR ","BBBBBBBBBB "," HMMH HPPP "],
+                    [" HMMH HMMS "," HMMH HMMS0"," HMMH HMMS "]
+                ],
+                "mapping":{
+                    "H":"immersiveengineering:metal_decoration0[type=heavy_engineering]",
+                    "M":"immersiveengineering:sheetmetal[type=steel]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]",
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "B":"immersiveengineering:storage[type=steel]",
+                    "P":"immersiveengineering:metal_device1[type=fluid_pipe]",
+                    "A":"immersiveengineering:metal_decoration0[type=radiator]"
+                }
+            },
+            "text":"To form the structure right click on the steel block at the Redstone Engineering Block side."
+        },
+        {
+            "type":"image",
+            "text":"You can insert Steam into this face",
+            "title":"Steam Input",
+            "images":["immersive1:textures/steam_input1.png"]
+        },
+        {
+            "type":"text",
+            "text":"Now the turbine have steam now but why is not thing happend ? Because it need a Alternator as It's power output. These materials are required for the alternator:                    x4 Heavy Engineering Block  x8 Generator Blocks         x6 High-Voltage Coil Block    x5 HV capacitor              x8 Steel Sheetmetal           x2 Block Of Steel."
+        },
+        {
+            "type":"multiblock",
+            "name":"Alternator",
+            "multiblock":{
+                "pattern":[
+                    ["MR H ","MR E ","MR H "],
+                    ["MRCH ","BBEE ","MRCH "],
+                    ["MRCH ","MRCE0","MRCH "]
+                ],
+                "mapping":{
+                    "M":"immersiveengineering:sheetmetal[type=steel]",
+                    "R":"immersiveengineering:metal_decoration0[type=generator]",
+                    "C":"immersiveengineering:metal_device0[type=capacitor_hv]",
+                    "H":"immersiveengineering:metal_decoration0[type=coil_hv]",
+                    "E":"immersiveengineering:metal_decoration0[type=heavy_engineering]",
+                    "B":"immersiveengineering:storage[type=steel]"
+                }
+            },
+            "text":"Make sure to attach the block of steel from Alternator with the overhanged Steel Block from the Steam Turbine."
+        },
+        {
+            "type":"text",
+            "text":"To form, you need to right click on the centre Heavy Engineering Block, when formed notice to 6 power outputs from 2 side of the Alternator L/R you can attach the Wire Connector on it and we are ready to take out the HUGE AMOUNT of powers"
+        }
+    ]
+}
+
+

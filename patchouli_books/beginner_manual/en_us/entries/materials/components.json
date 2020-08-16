@@ -1,0 +1,15 @@
+{
+    "name":"2.Mechanical Components",
+    "icon":"immersiveengineering:material:9",
+    "category":"c_material",
+    "pages":[
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:iron_component"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:steel_component"
+        }
+    ]
+}

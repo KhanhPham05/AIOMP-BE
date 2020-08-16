@@ -1,0 +1,31 @@
+{
+    "name":"M.Industrial Fermenter",
+    "icon":"immersiveengineering:metal_multiblock:8",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"The quest for Biodiesel will continues with another ingredient: Ethanol . To make it we need Industrial Fermenter .It will need:                                      x6 Steel Scaffolding          x2 Fluid Pipe                x1 Redstone Engineering Block  x2 Light Engineering Block   x4 Cauldrons                x4 Iron Sheetmetal."
+        },
+        {
+            "type":"multiblock",
+            "name":"Industrial Fermenter",
+            "multiblock":{
+                "pattern":[
+                    ["II  ","II  ","    "],
+                    ["CCL ","CC  ","  R "],
+                    ["SSL ","SPS0","SPS "]
+                ],
+                "mapping":{
+                    "I":"immersiveengineering:sheetmetal[type=iron]",
+                    "C":"minecraft:cauldron",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]",
+                    "L":"immersiveengineering:metal_decoration0[type=light_engineering]",
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "P":"immersiveengineering:metal_device1[type=fluid_pipe]"
+                }
+            },
+            "text":"To from it right lick on the caudron at the side which have light engineering block and redstone engineering block"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name":"H. Garden Cloche",
+    "icon":"immersiveengineering:metal_device1:13",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Garden Cloche is a machine that help u to automaticlly grow your plants, cactus, sugarcane, but can not grow up saplings, we need a Water Pump to pump the water from a infinite water source to your Garden Cloche using Fluid Pump to transfer the fluids into the small dark square!"        
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:metal_devices/garden_cloche",
+            "text":"It have an output face is the orange small square on the bigger square in the middle of the garden cloche, use chest or drawers to store your results"
+        },
+        {
+            "type":"text",
+            "text":"There is an other small yellow squares next to the water input place where u can put a lever to turn on/off the machine, you just need to place the lever on 1 of the inputs."    
+        }
+       
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name":"N. Refinery",
+    "icon":"immersiveengineering:metal_multiblock:9",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"After we have Ethanol and Plant Oil, it's time to make BioDiesel !! These materials are requied to make it:           x8 Steel Scaffolding           x5 Fluid Pipes                x1 Redstone Engineering Block  x2 Light Engineering Block    x2 Heavy Engineering Block    x16 Iron Sheetmetals"
+        },
+        {
+            "type":"multiblock",
+            "name":"Refinery",
+            "multiblock":{
+                "pattern":[
+                    ["II  ","II  ","    ","II  ","II  "],
+                    ["II  ","II  ","L H ","II  ","IIR "],
+                    ["SPS ","SPS ","LPH0","SPS ","SPS "]
+                ],
+                "mapping":{
+                    "I":"immersiveengineering:sheetmetal[type=iron]",
+                    "H":"immersiveengineering:metal_decoration0[type=heavy_engineering]",
+                    "L":"immersiveengineering:metal_decoration0[type=light_engineering]",
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "P":"immersiveengineering:metal_device1[type=fluid_pipe]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]"
+                }
+            },
+            "text":"To form it right click with the hammer on the heavy engineering block"
+        },
+        {
+            "type":"text",
+            "text":"because we need to combine two ingredients to make Biodiesel so it have 2 inputs trom right and left(blue dot with big square) and the output is the face of the refinery(orange dot with big square)"
+        }
+    ]
+}

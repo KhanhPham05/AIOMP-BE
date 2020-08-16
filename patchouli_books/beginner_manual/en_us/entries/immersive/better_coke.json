@@ -1,0 +1,46 @@
+{
+    "name":"J.Better Coke Production",
+    "icon":"immersiveengineering:stone_decoration:3",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"You think your steel production are too slow ? So there is a solution for this. fist step let's build a Advanced Coke Oven need Reinforce Blast Brick and steel sheetmetals"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:coke_brick_reinforced",
+            "recipe2":"immersiveengineering:sheetmetal/steel_sheetmetal"
+        },
+        {
+            "type":"text",
+            "text":"Required Materials:             x18 Reinforce Coke Brick       x9 Steel Sheetmetals           x1 Hopper"
+        },
+        {
+            "type":"multiblock",
+            "name":"Advanced Coke Oven",
+            "multiblock":{
+                "pattern":[
+                    ["    ", " H  ", "    "],
+                    ["SBB ", "SBB ", "SBB "],
+                    ["SBB ", "SBB ", "SBB "],
+                    ["SBB ", "SBB0", "SBB "]
+                ],
+                "mapping":{
+                    "S":"immersiveengineering:sheetmetal[type=steel]",
+                    "B":"immersivetech:stone_decoration[type=cokebrick_reinforced]",
+                    "H" :"minecraft:hopper"
+                }
+            }
+        },
+        {
+            "type":"text",
+            "text":"this oven will use as the normal one but the speed are faster, but if you want to have some upgrades for it . you can have the Coke Oven Preheater, recommened to make 2 preheater"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:coke_preheater",
+            "text":"After finish crafting 2 preheater attach them next to the oven from 2 sides left and right, to operate it input the energy source from orange square on the middle of the preheaters"
+        }
+    ]
+}    

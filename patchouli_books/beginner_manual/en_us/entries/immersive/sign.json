@@ -1,0 +1,37 @@
+{
+    "name":"*Immersive Engineering signs",
+    "icon":"immersiveengineering:coresample",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"image",
+            "title":"Item Outputs",
+            "images":["immersive1:textures/item_output.png"],
+            "text":"You can use the convenyor belts to extract and transfer items from here"
+        },
+        {
+            "type":"image",
+            "title":"Item Inputs",
+            "images":["immersive1:textures/item_input.png"],
+            "text":"Like the output, you also can use to transfer and insert items to here"
+        },
+        {
+            "type":"image",
+            "title":"Fluid Input",
+            "images":["immersive1:textures/fluid_input.png", "immersive:textures/fluid_input2.png"],
+            "text":"From your fluid pump, transfer your water or any kind of fluid into this face"
+        },
+        {
+            "type":"image",
+            "title":"Redstone Panel",
+            "images":["immersive1:textures/redstone_panel0.png"],
+            "text":"To turn on/off we can put the lever on it and turn the lever on = Machine Turned Off, and vice versa !"
+        },
+        {
+            "type":"image",
+            "title":"Power Input",
+            "images":["immersive1:textures/power_input0.png"],
+            "text":"All the machines will ONLY take power from here"
+        }
+    ]
+}
