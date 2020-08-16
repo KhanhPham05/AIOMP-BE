@@ -1,0 +1,40 @@
+{
+    "name":"C.Blast Furnace",
+    "icon":"immersiveengineering:stone_decoration:1",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Next Step! Did you have the Coal Coke ? If you haven't go to the coke oven and cook some coal into coal coke. You can cook a whole block of coal but the recipe of Block Of Coal was disabled. If you have it already, It's time to bring out our next multiblock structure - the Blast Furnace!"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:stone_decoration/blastbrick",
+            "text":"Like Coke Oven, you also need 27 blast bricks to build it"
+        },
+        {
+            "type":"multiblock",
+            "name":"Blast Furnace",
+            "multiblock": {
+                "pattern":[
+                    
+                    ["   ", "AAA", "AAA", "AAA"],
+                    ["   ", "AAA", "AAA", "AAA"],
+                    [" 0 ", "AAA", "AAA", "AAA"]
+                   
+                ],
+                "mapping":{
+                    "A": "immersiveengineering:stone_decoration[type=blastbrick]"
+                   
+                }   ,
+                "symmetrical":true
+                },
+            "text":"This oven will produce steel using coal coke and iron, YOU WILL NEED TONS OF STEELS.... and time too~~"
+        },
+        {
+            "type":"text",
+            "text":"After you finish, right click the Engineer's Hammer into the center block of the face you want to be the face of the furnace"
+        }
+        
+    ]
+}

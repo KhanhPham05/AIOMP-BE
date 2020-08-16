@@ -1,0 +1,36 @@
+{
+    "name":"L. Squeezer",
+    "icon":"immersiveengineering:metal_multiblock:7",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"The next heavy machine you have to do to step up is Squeezer, it will presses juice ore oil out of organic materialsby using a Big Piston"
+        },
+        {
+            "type":"text",
+            "text":"Required Materials:           x6 Steel Scaffolding,           x2 Fluis Pipes                x1 Redstone Engineering Block  2x Light Engineering Block    x4 Wooden Barrels           x1 Piston                   x3 Steel Fences             REMEMBER: while you are building the machine, the place where you put fluid pipe is the place where the game will said that place is the Blast Furnace Preheater, don't care about it just put the fluid pipe there"
+        },
+        {
+            "type":"multiblock",
+            "name":"Squeezer",
+            "multiblock":{
+                "pattern":[
+                    ["FF  ","FA  ","    "],
+                    ["BBL ","BB  ","  R "],
+                    ["SSL ","SPS0","SPS "]                  
+                ],
+                "mapping":{
+                    "L":"immersiveengineering:metal_decoration0[type=light_engineering]",
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "P":"immersiveengineering:metal_device1[type=fluid_pipe]",
+                    "B":"immersiveengineering:wooden_device0[type=barrel]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]",
+                    "F":"immersiveengineering:metal_decoration1[type=fence]",
+                    "A":"minecraft:piston[facing=down]"
+                },
+            "text":"To form it right click with the hammer on the wodden barrel in the light engineering block and redstone engineering block side, that's the front face of the machine"
+            }
+        }
+    ]
+}

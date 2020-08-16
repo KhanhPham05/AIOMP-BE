@@ -1,0 +1,45 @@
+{
+    "name":"K.Better Steel Production!",
+    "icon":"immersiveengineering:stone_decoration:2",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"After you have the best coal coke production, it's time for the best steel production! but first you need some materials"
+        },
+        {
+            "type":"text",
+            "text":"Required Materials:           x27 Reinforce Blast Brick      x1 Hopper"
+        }   ,
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:blast_brick_reinforced",
+            "text":"This recipe was changed from 1 into 4 Steel Plates, good luck with your AFK."
+        } ,
+        {
+            "type":"multiblock",
+            "name":"Improved Blast Furnace",
+            "multiblock":{
+                "pattern":[
+                    ["    ", " H  ", "    "],
+                    ["AAA ", "AAA ", "AAA "],
+                    ["AAA ", "AAA ", "AAA "],
+                    ["AAA ", "AAA0", "AAA "]
+                ],
+                "mapping":{
+                    "A": "immersiveengineering:stone_decoration[type=blastbrick_reinforced]",
+                    "H": "minecraft:hopper"
+                }
+            }
+        },
+        {
+            "type":"text",
+            "text":"Like the coke oven, you can attach 2 preheaters from both 2 sides and energy input also on top of the preheaters. Output of the furnace is the black square in front of the furnace you can put chest to store your steels, you can do this with Advenced Coke Oven"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:blast_preheater",
+            "text":"This recipe also changed from iron sheetmetal into aluminium and steel sheetmetals"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name":"8.Energy Cubes",
+    "icon":"mekanism:energycube",
+    "category":"e_mekanism",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Do you think the energy capacitor of Immersive Engineering is the largest amopunt of energy you can store ? No- Mekanism have the most facinated energy capacitor system in this modpack - upto 900 Trillions RF !! But first these blocks are the very basic but it can store a resonable amount of energy. The Engergy Cube"
+        },
+        {
+            "type":"spotlight",
+            "item":"mekanism:energycube",
+            "text":"This is the most basic energy capacitor block from Mekanism, this cube can store 800 000 RF and can be fransfer with IE cable or Mekanism Cable and make sure to cuse the Configurator [Energy Mode] to change the input/output side"
+        },   
+        {
+            "type":"text",
+            "text":"List of energy capacity from Basic tier to Ultimate tier    + Basic tier: 800.0 kRF (kiloRF) + Advanced tier: 3.2 MRF (Mili RF)                           + Elite tier: 12.8 MRF           + Ultimate tier: 51.2 MRF"
+        },
+        {
+            "type":"crafting",
+            "recipe":"mekanism:energycube_0",
+            "recipe2":"mekanism:energycube_0_alt"
+        },
+        {
+            "type":"crafting",
+            "recipe":"mekanism:energycube_0_alt_alt",
+            "recipe2":"mekanism:energycube_0_alt_alt_alt"
+        }
+    ]
+}

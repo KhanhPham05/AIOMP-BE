@@ -1,0 +1,21 @@
+{
+    "name":"Waterwheel",
+    "icon":"immersiveengineering:wooden_device1",
+    "category":"d_power_generation",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Time for a neew, better power generator - The waterwheel, if you know how to build it propelly, it will produce 88RF per one tick (RF/t), 1 second = 20 ticks"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:material/waterwheel_segment",
+            "text":"waterwheels place next to each other, you can place up to 3, that means you need total 12 segments and 3 steel ingots, Like windmill it will work when attach 3 waterwheels on the Kinetic Dynamo"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:ie_waterwheel",
+            "text":"Water Wheel have to be attached together at maximum amount of 3 and you can reach 88RF/t max from 3 waterwheels"
+        }
+    ]
+}

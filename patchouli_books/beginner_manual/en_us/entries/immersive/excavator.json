@@ -1,0 +1,56 @@
+{
+    "name":"Y. Excavator",
+    "icon":"immersiveengineering:metal_multiblock:11",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Do you think that's everything in Immersive Engineering ?Nope that's not there are many things to do in IE so let's move on a Side Story Chapter -- Mother Of Miner -- The Excavator !!!! [needs 2048RF/t and tons of steels]"
+        },
+        {
+            "type":"text",
+            "text":"The first step, use the Core Sample Drill and your [Fully-Charged] capacitor and find a chunk have a mineral vein on your Sample, when you located that chunk it's time to build the Excavator in that same chunk"
+        },
+        {
+            "type":"text",
+            "text":"Required Materials:            x26 Steel Scaffolding          x15 Steel Sheetmetal           x9 Block of Steel              x1 Redstone Engineering Block x9 Light Engineering Block   x5 Heavy Engineering Block   x3 Radiator Block             Make sure to dig down a 9 blocks long , 3 blocks wide and deep 2 blocks hole before buiding it"
+        },
+        {
+            "type":"multiblock",
+            "name":"Excavator",
+            "multiblock":{
+                "pattern":[
+                    ["         ","   B     ","         "],
+                    ["         "," BSSSB   ","         "],
+                    ["  LLLAAH "," SSSSS M ","  MMMMLM "],
+                    ["  LLLMMR ","BSSBSSBH ","  HHHMLM "],
+                    ["  SSSMMA "," SSSSS M0","  SSSMLM "],
+                    ["         "," BSSSB   ","         "],
+                    ["         ","   B     ","         "]
+                ],
+                "mapping":{
+                    "B":"immersiveengineering:storage[type=steel]",
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "M":"immersiveengineering:sheetmetal[type=steel]",
+                    "A":"immersiveengineering:metal_decoration0[type=radiator]",
+                    "L":"immersiveengineering:metal_decoration0[type=light_engineering]",
+                    "H":"immersiveengineering:metal_decoration0[type=heavy_engineering]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]"    
+                }    
+            },
+            "text":"To form, right-click on the Heavy Engineering Block next to the Redstone Engineering Block face using Engineer's Hammer"
+        },
+        {
+            "type":"image",
+            "title":"Power Inputs",
+            "images":["immersive1:textures/excavator_power_input.png"],
+            "text":"There are 3 powers inputs at the right side of the machine"
+        },
+        {
+            "type":"image",
+            "title":"Item Outputs",
+            "images":["immersive1:textures/excavator_item_output.png"],
+            "text":"From here you can put some chests or some storable block in front of this hole"
+        }
+    ]
+}

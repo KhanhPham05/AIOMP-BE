@@ -1,0 +1,17 @@
+{
+    "name":"4. Radiator & Generator Block",
+    "icon":"immersiveengineering:metal_decoration0:6",
+    "category":"c_material",
+    "pages":[
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:metal_decoration/generator",
+            "text":"This block only use for decoration and use for multiblock, not generating power"
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:metal_decoration/radiator",
+            "text":"This block is a material use for multiblock buiding."
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name":"1.Concrete",
+    "icon":"immersiveengineering:stone_decoration:5",
+    "category":"c_material",
+    "pages":[
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:stone_decoration/concrete"     
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:stone_decoration/concrete2"     
+        }
+       
+    ]
+}

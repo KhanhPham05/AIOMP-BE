@@ -1,0 +1,16 @@
+{
+    "name":"5.Crusher",
+    "icon":"mekanism:machineblock:3",
+    "category":"e_mekanism",
+    "pages":[
+        {
+            "type":"text",
+            "text":"You will now wonder why you build the big crusher while you have this smaller Crusher to duplicate your resources right? Because IT'S KNOWLEDGE . And you can use wires from Immerisve Engineering to give it some power to run"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:mek_crusher",
+            "text":"like the other machines, you can crushing ores into 2 dusts and use the Logistical Transporter for automation system."
+        }
+    ]
+}

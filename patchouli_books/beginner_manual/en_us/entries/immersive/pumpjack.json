@@ -1,0 +1,51 @@
+{
+    "name":"T. PumpJack",
+    "icon":"immersivepetroleum:metal_multiblock:3",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"The next step to get steam is collect Crude Oil from the deep ground. That's means it's time for the Core Sample Drill to action ! Craft for you one first."
+        },
+        {
+            "type":"crafting",
+            "recipe":"immersiveengineering:metal_devices/coresample_drill",
+            "text":"But i recommened you to bring one capacitor at least and make sure it fully charged"
+        },
+        {
+            "type":"text",
+            "text":"Crude Oil are not everywhere so you have to locate it specifically in a chunk by using the Sample Drill. Now when you hold it on your hand you will see a yellow collumn, that's the chunk border, place it in a chunk and place your capacitor next to it and make sure to change the side into Output by using the Engineer's Hammer and right click on that side. When the drill have power you can right click not necessary to hold the Hammer."
+        },
+        {
+            "type":"text",
+            "text":"Wait for 10 seconds the drill will dig down and the drill will push back up then you can right click again on the Drill you will recive your sample, open inventory and hover your mouse on the sample you will see what minerals or fluids are containning in that chunk. If there is nothing you can remove the Drill and your capacitor to another chunk and keep repeat the progress until you see your sample contains Crude Oil. That chunk is prefect to build you brand new PumpJack !!!!"
+        },
+        {
+            "type":"text",
+            "text":"These materials are required for the PumpJack:             x11 Steel Scaffolding          x6 Treated Wood Fence        x4 Fluid Pipes                x1 Redstone Engineering Block  x2 Light Engineering Block     x2 Heavy Engineering Blocks   x2 Blocks of Steel           x4 Iron Sheetmetal               The PumpJack will takes 1024RF/tick to pump 15mB of Crude Oil. Kind of expensive"
+        },
+        {
+            "type":"multiblock",
+            "name":"PumpJack",
+            "multiblock":{
+                "pattern":[
+                    ["  F    ","BCCCC  ","  F    "],
+                    ["  F    ","B   H  ","  F    "],
+                    ["  F  R ","    H  ","  F  L "],
+                    [" SPSSS ","SPPSSS0"," SPSSL "]
+                ],
+                "mapping":{
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "P":"immersiveengineering:metal_device1[type=fluid_pipe]",
+                    "L":"immersiveengineering:metal_decoration0[type=light_engineering]",
+                    "F":"immersiveengineering:wooden_decoration[type=fence]",
+                    "H":"immersiveengineering:metal_decoration0[type=heavy_engineering]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]",
+                    "B":"immersiveengineering:storage[type=steel]",
+                    "C":"immersiveengineering:sheetmetal[type=steel]"
+                }
+            },
+            "text":"To form hold the hamemr and right-click into the center heavy engineering block."
+        }
+    ]
+}

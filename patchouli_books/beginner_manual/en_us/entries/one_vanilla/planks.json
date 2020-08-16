@@ -1,0 +1,21 @@
+{
+    "name": "Wood Planks Changes",
+    "icon": "minecraft:log:0",
+    "category": "a_one_vanilla",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This is the first Step for you to step up in mods, you can look here for guides or changed recipes"
+        },
+        {
+            "type": "crafting",
+            "recipe":"crafttweaker:oak_planks",
+            "text":"This recipes can applied with all vanilla wood planks"
+        },
+        {
+            "type":"crafting",
+            "recipe":"crafttweaker:torch",
+            "text":"The recipe of the torch is now only can craft with charcoal"
+        }    
+    ]
+}

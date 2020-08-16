@@ -1,0 +1,27 @@
+{
+    "name":"9. Basic Generators",
+    "icon":"mekanismgenerators:generator:5",
+    "category":"e_mekanism",
+    "pages":[
+        {
+            "type":"text",
+            "text":"This is the Biggest Technology mod so there is no reason that there is no generator in Mekanism, these are the very basic generators for you from the early stage of Mekanism."
+        },
+        {
+            "type":"spotlight",
+            "item":"mekanismgenerators:generator",
+            "text":"Like other basic generator, you can use a heat source such as woods, coals, lavas, etc.. to generate powers. Craft it and give it some thing to burn. It will give you 120RF/t, not to much but if you use more generator, the power will increase but the noise will be louder. These generator can not apply any type of upgrades"
+            
+        },
+        {
+            "type":"crafting",
+            "recipe":"mekanismgenerators:generator_0",
+            "recipe2":"mekanismgenerators:generator_1"
+        },
+        {
+            "type":"soptlight",
+            "item":"mekanismgenerators:generator:1",
+            "text":"This generator are very simple but quite good it need to place direct sunshine but it can cause a heavr noise when you put to many of them  "
+        }   
+    ]
+}

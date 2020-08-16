@@ -1,0 +1,35 @@
+{
+    "name":"S. Boiler",
+    "icon":"immersivetech:metal_multiblock:4",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"The Boiler - A Important Step of the prefection of Immersive Engineering. These materials are required:                x10 Steel Scaffoldings        x9 Fluid Pipes                x1 Redstone Engineering Block  x4 Heavy Enginnering Block   x20 Iron Sheetmetals        This machine will not requires energy to run"
+        },
+        {
+            "type":"multiblock",
+            "name":"Boiler",
+            "multiblock":{
+                "pattern":[
+                    
+                    ["IPI ","IPI ","IPI ","IPI ","HH  "],
+                    ["III ","III ","III ","III ","HHR "],
+                    ["SPS ","SPS ","SPS0","SPS ","SPS "]
+                ],
+                "mapping":{
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "P":"immersiveengineering:metal_device1[type=fluid_pipe]",
+                    "I":"immersiveengineering:sheetmetal[type=iron]",
+                    "H":"immersiveengineering:metal_decoration0[type=heavy_engineering]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]"
+                }
+            },
+            "text":"To form it make sure to use the Engineer's Manual and right-click on the center iron sheetmetal at the redstone engineering block side"
+        },
+        {
+            "type":"text",
+            "text":"But wait, to produce Steam we also need another ingredient, that's Diesel but how to make it? Time to move on the next step! The Pump Jack"
+        }
+    ]
+}

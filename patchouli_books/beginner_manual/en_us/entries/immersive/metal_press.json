@@ -1,0 +1,34 @@
+{
+    "name":"E.Metal Press",
+    "icon":"immersiveengineering:metal_multiblock:0",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":" The name tells everything . Metal Press use for press the ingots into many kinds of necessary items"
+        },
+        {
+            "type":"multiblock",
+            "name":"Metal Press",
+            "multiblock":{
+                "pattern":[
+                    [" ", " ", "H", " "],
+                    [" ", "C", "P", "C"],
+                    ["0", "S", "R", "S"]
+                ],
+                "mapping":{
+                    "H":"immersiveengineering:metal_decoration0[type=heavy_engineering]",
+                    "C":"immersiveengineering:conveyor",
+                    "P":"minecraft:piston[facing=down]",
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]"
+                },
+                "symmetrical":true
+            }            
+        } ,
+        {
+            "type":"text",
+            "text":"The missing texture is the conveyor belt, make sure to use a normal one, otherwise the machine can not me form, piston have to facing down"
+        }
+    ]
+}

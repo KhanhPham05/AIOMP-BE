@@ -1,0 +1,35 @@
+{
+    "name":"Q. Automated Workbench",
+    "icon":"immersiveengineering:metal_multiblock:5",
+    "category":"b_immersive",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Want to know some more interesting things in Immersive Engineering? Well, we will keep going will the Automated Workbench. Materials Requied:   x5 Steel Scaffolding           x2 Treated Wood Slab         x1 Redstone Engineering Block  x4 Light Engineering Blocks  x2 Heavy Engineering Blocks  x4 Conveyor Belts."
+        } ,
+        {
+            "type":"multiblock",
+            "name":"Automated Workbench",
+            "multiblock":{
+                "pattern":[
+                    ["YLL ","AYB ","HYB "],
+                    ["SLL ","SSR0","HSS "]                   
+                ],
+                "mapping":{
+                    "S":"immersiveengineering:metal_decoration1[type=steel_scaffolding_0]",
+                    "L":"immersiveengineering:metal_decoration0[type=light_engineering]",    
+                    "H":"immersiveengineering:metal_decoration0[type=heavy_engineering]",
+                    "R":"immersiveengineering:metal_decoration0[type=rs_engineering]",
+                    "Y":"immersiveengineering:conveyor[facing=west,type=conveyor]",
+                    "A":"immersiveengineering:conveyor[facing=north,type=conveyor]",
+                    "B":"immersiveengineering:treated_wood_slab[slabtype=0]"
+                }
+            },
+            "text":"The multiblock is shown here could be glitched out, for somw detail information, cheack out the Engineer's Manual"
+        },
+        {
+            "type":"text",
+            "text":"   To form, this right click on the Treated Wood Planks on the Redstone Engineering Blocks. To operate, give it some power and blueprints like normal workbench use. Give them the required materials and blueplerint, select the item you want it to make the wait !!So Simple"
+        }
+    ]
+}
