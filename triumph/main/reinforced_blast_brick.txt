@@ -1,0 +1,22 @@
+setTitle("Reinforced Coke Brick")
+
+setDescription("Craft 27 Reinforced Coke Brick and 1 Hopper to build and form the Improved Blast Furnace")
+
+setIcon("immersiveengineering:stone_decoration", 2)
+
+addParent("triumph:main/steel_plate")
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("reinforced_blast_brick", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:stone_decoration, meta:2, count:27>)
+criteria.addItem(<minecraft:hopper>)
+
+visualIf("triumph:main/root")
+setPos(69,-128)

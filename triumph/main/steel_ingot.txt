@@ -1,0 +1,21 @@
+setTitle("Steel Ingot !!!!!!")
+
+setDescription("Use the Blast Furnace to smelt down Iron Ingot from Coal Coke as Fuel to produce Steel Ingot. It can be smelt as blocks but only when you got the Metal Press")
+
+setIcon("immersiveengineering:metal", 8)
+
+addParent("triumph:main/blast_brick")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("steel_ingot", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal", 8)
+
+visibleIf("triumph:main/root")
+setPos(-224,-128)

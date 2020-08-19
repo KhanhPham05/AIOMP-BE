@@ -1,0 +1,12 @@
+setTitle("Redstone Engineering Block")
+
+setDescription("Craft the Redstone Engineering Block")
+
+setIcon("immersiveengineering:metal_decoration0", 3)
+
+addParent("triumph:main/RTFM")
+
+//criteria
+criteria = addCriteria("rs_engineering", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal_decoration0", 3)
+setPos(-306,-46)

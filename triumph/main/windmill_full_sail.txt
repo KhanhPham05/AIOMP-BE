@@ -1,0 +1,20 @@
+setTitle("When The Wind Gone Viral")
+
+setDescription("Craft and place 8 the Windmill Sails into the Windmil by right-click on Windmill. Then break and collect it back to your inventory to complete")
+
+setIcon("immersiveengineering:material", 12)
+
+addParent("triumph:main/windmill")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("craftSail", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:material ,meta:12, count:8>)
+criteria.addItem(<immersiveengineering:wooden_device1, meta:1, count:1, nbt:{sails:8}>)
+setPos(-181,40)

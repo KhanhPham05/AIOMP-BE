@@ -1,0 +1,29 @@
+
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+//Set icon item
+setIcon(<minecraft:knowledge_book>)
+
+//Set title String
+setTitle("The KnowLedge")
+
+//Set description String
+setDescription("Craft and obtain the Manual Book from Patchouli by craft a any color wool with a book")
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("immersiveengineering:textures/blocks/treated_wood.png")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+//Set the position
+setPos(-455,34)
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+criteria = addCriteria("book", "minecraft:inventory_changed")
+criteria.setItem("patchouli:guide_book")
+
+alwaysVisible()

@@ -1,0 +1,22 @@
+setTitle("Engineer's Workbench")
+
+setDescription("Craft a Engineer's Workbench")
+
+addParent("triumph:main/fluid_pipe")
+addParent("triumph:main/heavy_engineering")
+
+setIcon("immersiveengineering:wooden_device0", 2)
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("workbench", "minecraft:inventory_changed")
+criteria.setItem(<immersiveengineering:wooden_device0, meta:2, count:1>)
+
+visibleIf("triumph:main/root")
+setPos(-139,-4)

@@ -1,0 +1,14 @@
+setTitle("Steel Plate")
+
+setDescription("Use the Metal Press to press steel into Steel Plate with Metal Press Mold [Plate]")
+
+setIcon("immersiveengineering:metal", 38)
+
+addParent("triumph:main/mb_metal_press")
+
+//criteria
+criteria = addCriteria("steel_plate", "minecraft:inventory_changed")
+criteria.setItem(<immersiveengineering:metal, meta:38>)
+
+visibleIf("triumph:main/root")
+setPos(8,-46)

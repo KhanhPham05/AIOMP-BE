@@ -1,0 +1,24 @@
+setTitle("The Power Core")
+
+setDescription("Craft and place the Kinetic Dynamo")
+
+setIcon("immersiveengineering:metal_device1", 2)
+
+addParent("triumph:main/RTFM")
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("craftDynamo", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device1, meta:2>)
+
+criteria = addCriteria("placedDynamo", "minecraft:placed_block")
+criteria.setItem(<immersiveengineering:metal_device1, meta:2>)
+
+visibleIf("triumph:main/root")
+setPos(-306,40)

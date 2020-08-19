@@ -1,0 +1,14 @@
+setTitle("Steel Scaffolding !!")
+
+setDescription("Craft the Steel Engineering Block")
+
+setIcon("immersiveengineering:metal_decoration1", 1)
+
+addParent("triumph:main/rs_engineering")
+
+//criteria
+criteria = addCriteria("steel_scaffodling", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal_decoration1", 1)
+
+visibleIf("triumph:main/root")
+setPos(-264,-46)

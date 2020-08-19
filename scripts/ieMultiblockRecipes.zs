@@ -27,4 +27,5 @@ mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:6>
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:8>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:8>, <ore:ingotIron>, null, 200, 1000, [<immersiveengineering:material:6>], "Alloying");
 
-//
+//Steel Block in Coke Oven
+mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:storage:8>, 9, <ore:blockIron>, 10800);

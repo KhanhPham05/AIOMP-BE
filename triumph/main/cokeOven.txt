@@ -1,0 +1,21 @@
+setTitle("Coke Oven")
+
+setDescription("Form the Coke Oven multiblock, smelt down Coal into Coal Coke and Creosote fluid")
+
+setIcon("immersiveengineering:stone_device")
+
+addParent("triumph:main/cokeBrick")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("coal_coke", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:material", 6)
+
+visibleIf("triumph:main/root")
+setPos(-224,-82)
