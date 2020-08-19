@@ -1,0 +1,22 @@
+setTitle("Steel Sheetmetal")
+
+setDescription("Craft Steel Sheetmetals for decoration and many of multiblock machine")
+
+setIcon("immersiveengineering:sheetmetal", 8)
+
+addParent("triumph:main/steel_plate")
+drawDirectLines()
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("steel_sheetmetal", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:sheetmetal", 8)
+
+visibleIf("triumph:main/root")
+setPos(69,-46)

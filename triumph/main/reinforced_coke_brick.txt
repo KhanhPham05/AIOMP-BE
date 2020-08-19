@@ -1,0 +1,19 @@
+setTranslatedTitle("Reinforced Coke Brick")
+
+setDescription("Craft 18 Reinforced Coke Brick and 9 Steel Sheetmetal and a hopper to form the Advanced Coke Oven multiblock")
+
+setIcon("immersivetech:stone_decoration", 0)
+
+addParent("triumph:main/steel_sheetmetal")
+drawDirectLines()
+
+setFrameType("task")
+
+//criteria
+criteria = addCriteria("reinforced_coke_brick", "minecraft:inventory_changed")
+criteria.addItem(<immersivetech:stone_decoration, meta:0, count:18>)
+criteria.addItem(<immersiveengineering:sheetmetal, meta:8, count:9>)
+criteria.addItem(<minecraft:hopper>)
+
+visualIf("triumph:main/root")
+setPos(69,-82)

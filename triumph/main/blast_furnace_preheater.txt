@@ -1,0 +1,23 @@
+setTitle("I Need Steel, FAST !!!!")
+
+setDescription("Place and power 2 Blast Furnace Preheaters")
+
+setIcon("immersiveengineering:metal_device1")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+addParent("triumph:main/root")
+hideLines()
+
+//criteria
+criteria = addCriteria("blast_furnace_preheater", "minecraft:placed_block")
+criteria.setItem("immersiveengineering:metal_device1")
+criteria.setCount(2)
+
+visibleIf("triumph:main/root")
+setPos(128,-195)

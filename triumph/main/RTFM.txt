@@ -1,0 +1,21 @@
+setTitle("Engineer's Manual")
+
+setDescription("RTFM !")
+
+setIcon("immersiveengineering:tool", 3)
+
+addParent("triumph:main/hammer")
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("ie_book", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:tool", 3)
+
+visibleIf("triumph:main/root")
+setPos(-358,-46)

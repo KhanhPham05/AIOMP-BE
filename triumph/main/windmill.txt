@@ -1,0 +1,24 @@
+setTitle("I Need A Wind!!")
+
+setDescription("Craft and Place the Windmill on the Kinetic Dynamo")
+
+setIcon("immersiveengineering:wooden_device1", 1)
+
+addParent("triumph:main/kinetic_dynamo")
+
+setFrameType("GOAL")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("craftWindmill", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:wooden_device1, meta:1>)
+
+criteria = addCriteria("placedWindmill", "minecraft:placed_block")
+criteria.setBlock(<immersiveengineering:wooden_device1, meta:1>)
+
+visibleIf("triumph:main/root")
+setPos(-264,40)

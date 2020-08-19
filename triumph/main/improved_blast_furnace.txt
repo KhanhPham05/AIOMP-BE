@@ -1,0 +1,21 @@
+setTitle("Improved Blast Furnace")
+
+setDescription("Form the Improved Blast Furnace multiblock")
+
+setIcon("immersiveengineering:stone_device", 2)
+
+addParent("triumph:main/reinforced_blast_brick")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("mb_improved_blast_furnace", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:BlastFurnaceAdvanced")
+
+visibleIf("triumph:main/root")
+setPos(128,-128)
