@@ -1,0 +1,23 @@
+setTitle("Coke Oven")
+
+setDescription("Form the Coke Oven multiblock")
+
+setIcon("immersiveengineering:stone_device")
+
+setFrameType("challenge")
+
+addParent("triumph:main/root")
+
+hideLines()
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("mb_coke_oven", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:CokeOven")
+
+visibleIf("triumph:main/root")
+setPos(-484,-195)

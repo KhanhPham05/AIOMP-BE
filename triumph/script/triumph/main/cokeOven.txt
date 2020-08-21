@@ -1,0 +1,21 @@
+setTitle("Creosote Oil")
+
+setDescription("Form the Coke Oven multiblock, smelt down Coal into Coal Coke and Creosote fluid")
+
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"creosote",Amount:1000}>)
+
+addParent("triumph:main/cokeBrick")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("coal_coke", "minecraft:inventory_changed")
+criteria.setItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"creosote",Amount:1000}>)
+
+visibleIf("triumph:main/root")
+setPos(-224,-82)

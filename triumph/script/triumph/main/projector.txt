@@ -1,0 +1,16 @@
+setTranslatedTitle("item.immersivepetroleum.schematic.name")
+
+setDescription("For a better multiblock build, we have the Multiblock Projector. You can use this to build or use the Manual Book as optional")
+
+setIcon("immersivepetroleum:schematic")
+
+addParent("triumph:main/root")
+hideLines()
+
+//criteria
+criteria = addCriteria("craftProjector", "minecraft:inventory_changed")
+criteria.setItem("immersivepetroleum:schematic")
+
+//visibleIf("triumph:main/root")
+alwaysVisible()
+setPos(-78,-118)

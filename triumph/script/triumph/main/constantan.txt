@@ -1,0 +1,15 @@
+setTitle("Constantan Ingot")
+
+setDescription("Use the alloy kiln to make Constantan ingot from Nickel and Copper. You can combine from ingot with ingots, dust with dust or dust with ingot.")
+
+setIcon("immersiveengineering:metal", 6)
+
+addParent("triumph:main/mb_alloy_kiln")
+drawDirectLines()
+
+//criteria
+criteria = addCriteria("constantan_ingot", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal", 6)
+
+visibleIf("triumph:main/root")
+setPos(-167,-210)

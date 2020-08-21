@@ -1,0 +1,21 @@
+setTranslatedTitle("tile.immersiveengineering.metal_multiblock.fermenter.name")
+
+setDescription("Form the Fermenter multiblock for Ethanol")
+
+setIcon("immersiveengineering:metal_multiblock", 8)
+
+addParent("triumph:main/mb_squeezer")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("mb_fermenter", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Fermenter")
+
+alwaysVisible()
+setPos(418,-46)

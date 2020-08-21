@@ -1,0 +1,12 @@
+setTitle("Fluid Pipe")
+
+setDescription("Fluid Pipe can tranfer fluid from this end to another end of the pipe system, when the pipes you dont want to attach with, use the Engineer's Hammer and right click on the junction of the pipes to separate them")
+
+setIcon("immersiveengineering:metal_device1", 6)
+
+addParent("triumph:main/conveyor_belt")
+
+//Criteria
+criteria = addCriteria("fluid_pipe", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal_device1", 6)
+setPos(-264,-4)

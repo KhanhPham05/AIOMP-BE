@@ -1,0 +1,21 @@
+setTitle("Metal Press Mold")
+
+setDescription("Craft the Metal Press Mold in the Engineer's Workbench")
+
+setIcon("immersiveengineering:mold")
+
+addParent("triumph:main/blueprint")
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("metal_press_mold", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:mold, meta:0>)
+
+visibleIf("triumph:main/root")
+setPos(-55,-4)

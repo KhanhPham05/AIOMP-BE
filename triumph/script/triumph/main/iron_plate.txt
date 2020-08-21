@@ -1,0 +1,14 @@
+setTitle("Iron PLate")
+
+setDescription("Use the Metal Press to press Iron Ingot to Iron Plate")
+
+setIcon("immersiveengineering:metal", 39)
+
+addParent("triumph:main/mb_metal_press")
+
+//criteria
+criteria = addCriteria("iron_plate", "minecraft:inventory_changed")
+criteria.setItem(<immersiveengineering:metal, meta:39>)
+
+visibleIf("triumph:main/root")
+setPos(69,-4)

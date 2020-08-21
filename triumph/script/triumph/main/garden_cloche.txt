@@ -1,0 +1,24 @@
+setTitle("Garden Cloche")
+
+setDescription("Craft and place the Garden Cloche to automaticly grow the plants. Not trees")
+
+setIcon("immersiveengineering:metal_device1", 13)
+
+addParent("triumph:main/vacuum_tube")
+addParent("triumph:main/iron_sheetmetal")
+
+setFrameType("challenge")
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("craft_garden_cloche", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal_device1", 13)
+
+criteria = addCriteria("place_garden_cloche", "minecraft:placed_block")
+criteria.setBlock("immersiveengineering:metal_device1", 13)
+
+visibleIf("triumph:main/root")
+setPos(186,-46)

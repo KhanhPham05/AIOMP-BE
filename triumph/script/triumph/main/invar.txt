@@ -1,0 +1,15 @@
+setTitle("Invar Ingot")
+
+setDescription("Obtain Inver Ingot To complete the Advancement")
+
+setIcon("thermalfoundation:material", 162)
+
+addParent("triumph:main/mb_alloy_kiln")
+drawDirectLines()
+
+//Criteria
+criteria = addCriteria("invar_ingot", "minecraft:inventory_changed")
+criteria.setItem(<thermalfoundation:material, meta:162>)
+
+visibleIf("triumph:main/root")
+setPos(-122,-236)

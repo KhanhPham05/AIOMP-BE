@@ -1,0 +1,21 @@
+setTitle("Another Blueprint")
+
+setDescription("Craft the [Crafting Component] Engineer's Blueprint")
+
+setIcon(<immersiveengineering:blueprint, meta:0, nbt:{blueprint:"components"}>)
+
+addParent("triumph:main/workbench")
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("blueprint_component", "minecraft:inventory_changed")
+criteria.setItem(<immersiveengineering:blueprint, count:1, nbt:{blueprint:"components"}>)
+
+visibleIf("triumph:main/root")
+setPos(-97,40)

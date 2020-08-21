@@ -1,0 +1,21 @@
+setTitle("Indusrtial Help Fiber")
+
+setDescription("Gather and plant Industrial Hemp Seed to get the Indusrtial Help Fiber. You can use the Garden Cloche")
+
+setIcon("immersiveengineering:material", 4)
+
+addParent("triumph:main/garden_cloche")
+drawDirectLines()
+
+//criteria
+criteria = addCriteria("gather_seed", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:seed")
+
+criteria = addCriteria("plant_seed", "minecraft:placed_block")
+criteria.setBlock("immersiveengineering:hemp")
+
+criteria = addCriteria("gather_fiber", minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:material", 4)
+
+visibleIf("triumph:main/root")
+setPos(186,80)

@@ -1,0 +1,15 @@
+setTitle("Bronze Ingot")
+
+setDescription("Obtain Bronze Ingot")
+
+setIcon("thermalfoundation:material", 163)
+
+addParent("triumph:main/mb_alloy_kiln")
+drawDirectLines()
+
+//criteria
+criteria = addCriteria("bronze_ingot", "minecraft:inventory_changed")
+criteria.setItem(<thermalfoundation:material, meta:163>)
+
+visibleIf("triumph:main/root")
+setPos(-17,-210)

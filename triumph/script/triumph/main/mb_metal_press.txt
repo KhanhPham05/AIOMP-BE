@@ -1,0 +1,21 @@
+setTitle("Metal Press")
+
+setIcon("immersiveengineering:metal_multiblock", 0)
+
+setDescription("Pressing metals with the molds into plates, rods, packing into blocks, etc. ")
+
+addParent("triumph:main/mold")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("metal_press", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:MetalPress")
+
+visualIf("triumph:main/mold")
+setPos(-9,-4)

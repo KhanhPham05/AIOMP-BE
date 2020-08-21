@@ -1,0 +1,12 @@
+setTitle("Coke Brick"),
+setDescription("Start with mods in Immersive Engineering. Craft 27 Coke Brick to form the Coke Oven")
+setIcon("immersiveengineering:stone_decoration")
+
+addParent("triumph:main/RTFM")
+
+//Criteria
+criteria = addCriteria("coke_brick", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:stone_decoration")
+
+visibleIf("triumph:main/root")
+setPos(-306,-82)

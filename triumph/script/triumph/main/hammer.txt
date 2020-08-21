@@ -1,0 +1,22 @@
+setTitle("HAMMER!!"),
+
+setDescription("Craft a Engineer's Hammer")
+
+setIcon("immersiveengineering:tool")
+
+addParent("triumph:main/root")
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("hammer", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:tool")
+
+visibleIf("triumph:main/root")
+
+setPos(-410,-46)

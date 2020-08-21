@@ -1,0 +1,29 @@
+setTitle("All The Modls")
+
+setDescription("Craft and Gather all the Metal Press Molds")
+
+setIcon("immersiveengineering:mold")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+addParent("triumph:main/root")
+hideLines()
+
+//criteria
+criteria = addCriteria("all_molds", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:mold, meta:0, count:1>)
+criteria.addItem(<immersiveengineering:mold, meta:1, count:1>)
+criteria.addItem(<immersiveengineering:mold, meta:2, count:1>)
+criteria.addItem(<immersiveengineering:mold, meta:3, count:1>)
+criteria.addItem(<immersiveengineering:mold, meta:4, count:1>)
+criteria.addItem(<immersiveengineering:mold, meta:5, count:1>)
+criteria.addItem(<immersiveengineering:mold, meta:6, count:1>)
+criteria.addItem(<immersiveengineering:mold, meta:7, count:1>)
+
+visibleIf("triumph:main/root")
+setPos(-442,-153)
