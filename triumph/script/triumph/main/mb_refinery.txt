@@ -1,0 +1,21 @@
+setTranslatedTitle("tile.immersiveengineering.metal_multiblock.refinery.name")
+
+setDescription("Form the Refinery multiblock")
+
+setIcon("immersiveengineering:metal_multiblock", 9)
+
+addParent("triumph:main/mb_fermenter")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("formRefinery","immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Refinery")
+
+alwaysVisible()
+setPos(449,-46)

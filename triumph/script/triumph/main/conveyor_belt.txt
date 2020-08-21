@@ -1,0 +1,14 @@
+setTitle("Conveyor Belt")
+
+setDescription("The Conveyor Belt will transfer all the item that you throw into it to a specific place at the end of the conveyor. Craft it and try to make a convenyour system for your own style !")
+
+setIcon("immersiveengineering:conveyor")
+
+addParent("triumph:main/RTFM")
+
+//criteria
+criteria = addCriteria("conveyor_belt", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:conveyor")
+
+visibleIf("triumph:main/root")
+setPos(-306,-4)

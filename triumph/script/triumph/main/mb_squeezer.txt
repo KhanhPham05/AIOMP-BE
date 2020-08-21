@@ -1,0 +1,21 @@
+setTitle("Squeezer")
+
+setDescription("Form the Squeezer multiblock")
+
+setIcon("immersiveengineering:metal_multiblock", 7)
+
+addParent("triumph:main/wooden_barrel")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("mb_squeezer", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Squeezer")
+
+visibleIf("triumph:main/root")
+setPos(349,-46)

@@ -1,0 +1,21 @@
+setTitle("Alloy Smelter !!!")
+
+setDescription("Form the Alloy Kiln multiblock")
+
+setIcon("immersiveengineering:stone_device", 7)
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+addParent("triumph:main/kiln_brick")
+
+//criteria
+criteria = addCriteria("alloy_kiln", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:AlloySmelter")
+
+visibleIf("triumph:main/root")
+setPos(-97,-176)

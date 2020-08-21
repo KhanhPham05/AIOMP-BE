@@ -1,0 +1,25 @@
+setTitle("All the BluePrint")
+
+setDescription("Craft and gather all the craftable Engineer's Blueprint")
+
+setIcon("immersiveengineering:blueprint")
+
+addParent("triumph:main/root")
+hideLines()
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("add_blueprint", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:blueprint, meta:0, count:1, nbt:{blueprint:"molds"}>)
+criteria.addItem(<immersiveengineering:blueprint, meta:0, count:1, nbt:{blueprint:"electrode"}>)
+criteria.addItem(<immersiveengineering:blueprint, meta:0, count:1, nbt:{blueprint:"components"}>)
+criteria.addItem(<immersiveengineering:blueprint, meta:0, count:1, nbt:{blueprint:"bullet"}>)
+
+visibleIf("triumph:main/root")
+setPos(-484,-153)

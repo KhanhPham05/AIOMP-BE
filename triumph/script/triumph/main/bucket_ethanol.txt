@@ -1,0 +1,13 @@
+setTranslatedTitle("tile.immersiveengineering.fluidEthanol.name")
+
+setDescription("Take a Ethanol Bucket from the Fermenter")
+
+setIcon(<forge:bucketfilled, nbt:{FluidName:"ethanol", Amount:1000}>)
+
+addParent("triumph:main/mb_fermenter")
+
+//criteria
+criteria = addCriteria("bucket_ethanol", "minecraft:inventory_changed")
+criteria.setItem(<forge:bucketfilled, nbt:{FluidName:"ethanol", Amount:1000}>)
+
+alwaysVible()

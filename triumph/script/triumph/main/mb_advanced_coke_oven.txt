@@ -1,0 +1,23 @@
+setTranslatedTitle("tile.immersivetech.stone_multiblock.coke_oven_advanced.name")
+
+setDescription("Form the Advanced Coke Oven multiblock")
+
+setIcon("immersivetech:stone_multiblock", 1)
+
+addParent("triumph:main/reinforced_coke_brick")
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("coke_oven_advanced", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IT:CokeOvenAdvanced")
+
+visibleIf("triumph:main/root")
+setPos(128,-82)
+
+//tile.immersiveengineering.stone_device.blast_furnace_advanced.name

@@ -1,0 +1,15 @@
+setTitle("Electrum Ingot")
+
+setDescription("Alloy the Electrum Ingot")
+
+setIcon("immersiveengineering:metal", 7)
+
+addParent("triumph:main/mb_alloy_kiln")
+drawDirectLines()
+
+//criteria
+criteria = addCriteria("electrum_ingot", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal", 7)
+
+visibleIf("triumph:main/root")
+setPos(-62,-236)

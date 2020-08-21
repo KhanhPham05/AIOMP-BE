@@ -1,0 +1,23 @@
+setTranslatedTitle("Too hot for Coke")
+
+setIcon("immersivetech:metal_device")
+
+setDescription("Craft 2 Coke Oven Preheater then attach it to the Advanced Coke Oven, feed it some energy. You will get the fastest Coal Coke production!")
+
+addParent("triumph:main/root")
+hideLines()
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("coke_oven_preheater", "minecraft:placed_block")
+criteria.setBlock(<immersivetech:metal_device>)
+criteria.setCount(2)
+
+visualIf("triumph:main/root")
+setPos(184,-82)

@@ -1,0 +1,14 @@
+setTitle("Light Engineering Block")
+
+setDescription("Craft the Light Engineering Block")
+
+setIcon("immersiveengineering:metal_decoration0", 4)
+
+addParent("triumph:main/steel_scaffolding")
+
+//Criteria
+criteria = addCriteria("light_engineering", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal_decoration0", 4)
+
+visibleIf("triumph:main/root")
+setPos(-224,-46)

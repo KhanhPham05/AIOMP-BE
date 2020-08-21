@@ -1,0 +1,14 @@
+setTitle("Plant Oil")
+
+setDescription("Take a bucket of Plant Oil form the Squeezer")
+
+setIcon(<forge:bucketfilled, nbt:{FluidName:"plantoil",Amount:1000}>)
+
+addParent("triumph:main/mb_squeezer")
+
+//criteria
+criteria = addCriteria("plant_oil", "minecraft:inventory_changed")
+criteria.setItem(<forge:bucketfilled, nbt:{FluidName:"plantoil",Amount:1000}>)
+
+visibleIf("triumph:main/root")
+setPos(365,-82)

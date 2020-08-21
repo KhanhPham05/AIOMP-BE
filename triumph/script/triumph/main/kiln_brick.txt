@@ -1,0 +1,22 @@
+setTitle("Need Some Alloys")
+
+setDescription("Craft 8 kiln Brick to build the Alloy Kiln multiblock")
+
+setIcon("immersiveengineering:stone_decoration", 10)
+
+addParent("triumph:main/RTFM")
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//criteria
+criteria = addCriteria("alloy_brick", "minecraft:inventory_changed")
+criteria.addItem("immersiveengineering:stone_decoration", 10)
+criteria.setCount(8)
+
+visibleIf("triumph:main/root")
+setPos(-306,-176)

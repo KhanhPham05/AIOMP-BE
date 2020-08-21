@@ -1,0 +1,14 @@
+setTitle("Heavy Engineering Block")
+
+setDescription("Craft the Heavy Engineering Block")
+
+setIcon("immersiveengineering:metal_decoration0", 5)
+
+addParent("triumph:main/light_engineering")
+
+//criteria
+criteria = addCriteria("heavy_engineering", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal_decoration0", 5)
+
+visibleIf("triumph:main/root")
+setPos(-181,-46)
