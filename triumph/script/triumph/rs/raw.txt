@@ -1,0 +1,16 @@
+setTitle("Raw Improved Processor")
+
+setDescription("Craft Raw Improved Processor")
+
+setIcon("refinedstorage:processor", 1)
+
+addParent("triumph:rs/processor_binding")
+
+//criteria
+criteria = addCriteria("completed_previous", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:rs/processor_binding")
+
+criteria = addCriteria("craft", "minecraft:inventory_changed")
+criteria.addItem("refinedstorage:processor", 1)
+
+visibleIf("triumph:rs/processor_binding")
