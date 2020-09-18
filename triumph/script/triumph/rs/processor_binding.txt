@@ -1,0 +1,15 @@
+setTitle("Processor Binding")
+
+setDescription("Craft the Processor Binding")
+
+setIcon("refinedstorage:processor_binding")
+
+addParent("triumph:rs/silicon")
+
+setFrameType("goal")
+
+//criteria
+criteria = addCriteria("processor_binding", "minecraft:inventory_changed")
+criteria.addItem("refinedstorage:processor_binding")
+
+visibleIf("triumph:rs/silicon")

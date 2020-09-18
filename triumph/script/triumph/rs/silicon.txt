@@ -1,0 +1,15 @@
+setTitle("Silicon !")
+
+setDescription("Smelt down the Nether Quartz into Silicon, it very useful")
+
+setIcon("refinedstorage:silicon")
+
+addParent("triumph:rs/root")
+
+setFrameType("goal")
+
+//criteria
+criteria = addCriteria("have_silicon", "minecraft:inventory_changed")
+criteria.addItem("refinedstorage:silicon")
+
+visibleIf("triumph:rs/root")

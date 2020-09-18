@@ -1,0 +1,17 @@
+setTitle("High-Tech Age")
+
+setDescription("Welcome To The Beyond !")
+
+setIcon(<refinedstorage:controller, meta:1, count:1, nbt:{Energy:32000}>)
+
+setBackground("rebornstorage:textures/blocks/frame.png")
+
+setShowToast(true)
+setAnnouncedToChat(true)
+
+pageAlwaysVisible()
+//pageVisibleIf("triumph:mekanism/wiring_completed_reward")
+
+//criteria
+criteria = addCriteria("RS_root", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:mekanism/wiring_completed_reward")
